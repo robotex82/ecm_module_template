@@ -5,7 +5,7 @@ require "ecm/module_template/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "ecm_faq"
+  s.name        = "ecm_module_template"
   s.version     = Ecm::ModuleTemplate::VERSION
   s.authors     = ["Roberto Vasquez Angel"]
   s.email       = ["roberto@vasquez-angel.de"]
