@@ -9,7 +9,7 @@ GIT
 PATH
   remote: .
   specs:
-    ecm_faq (0.0.1.pre)
+    ecm_module_template (0.0.1.pre)
       rails (~> 3.2.8)
 
 GEM
@@ -224,7 +224,7 @@ DEPENDENCIES
   activeadmin
   capybara
   coffee-rails
-  ecm_faq!
+  ecm_module_template!
   factory_girl_rails (~> 1.0)
   ffaker
   forgery (= 0.5.0)
