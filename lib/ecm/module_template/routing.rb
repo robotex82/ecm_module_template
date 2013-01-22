@@ -1,5 +1,5 @@
 module Ecm
-  module Links
+  module ModuleTemplate
     class Routing
       def self.routes(router, options = {})
         options.reverse_merge! {}
