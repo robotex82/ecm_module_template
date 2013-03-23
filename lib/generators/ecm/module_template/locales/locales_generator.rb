@@ -5,12 +5,13 @@ module Ecm
         desc "Copies the locale files to your application"
 
         source_root File.expand_path('../../../../../../config/locales', __FILE__)
-        
+
         def generate_locales
-          copy_file "ecm.module_template.en.yml", "config/locales/ecm.module_template.en.yml"
-          copy_file "ecm.module_template.de.yml", "config/locales/ecm.module_template.de.yml"
-        end   
+          copy_file "en.yml", "config/locales/ecm.module_template.en.yml"
+          copy_file "de.yml", "config/locales/ecm.module_template.de.yml"
+        end
       end
     end
   end
-end        
+end
+
