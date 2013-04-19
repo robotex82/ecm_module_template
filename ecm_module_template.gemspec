@@ -41,7 +41,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'factory_girl_rails', '~> 1.0'
 
   # Test automation
-  # s.add_development_dependency 'guard-rails' # See gemfile for a patched version, for engine support.
+  s.add_development_dependency 'guard-rails'
   s.add_development_dependency 'rb-inotify', '~> 0.9'
   s.add_development_dependency 'guard-rspec'
   s.add_development_dependency 'guard-bundler'

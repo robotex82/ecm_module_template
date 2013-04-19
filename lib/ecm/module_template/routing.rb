@@ -5,8 +5,8 @@ module Ecm
         options.reverse_merge!({})
 
         # router.resources :posts, :controller => 'ecm/module_template/posts'
-      end
-    end
-  end
-end
+      end # def
+    end # Routing
+  end # module FundReports
+end # module ITSF
 

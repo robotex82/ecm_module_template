@@ -1,7 +1,7 @@
 # A sample Guardfile
 # More info at https://github.com/guard/guard#readme
 
-guard 'rails', :rails_root => 'spec/dummy' do
+guard 'rails', :root => 'spec/dummy' do
   watch('Gemfile.lock')
   watch(%r{^(config|lib)/.*(^\.rake)})
 end

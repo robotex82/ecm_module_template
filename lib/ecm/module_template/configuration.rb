@@ -7,10 +7,11 @@ module Ecm
     module Configuration
       def configure
         yield self
-      end
+      end # def
 
       # mattr_accessor :foo
       # @@foo = nil
-    end
-  end
-end
+    end # module Configuration
+  end # module ModuleTemplate
+end # module Ecm
+
